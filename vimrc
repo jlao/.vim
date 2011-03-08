@@ -21,9 +21,13 @@ set incsearch
 inoremap jj <ESC>
 inoremap kk <ESC>
 
-set mouse=a
-
 colorscheme molokai
+
+" toggle paste mode
+" http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
 " jump to last known position
 if has("autocmd")
