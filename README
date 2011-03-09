@@ -1,0 +1,9 @@
+To use, replace you're .vim folder with a clone of this repo. Symlink you're .vimrc to the vimrc.
+
+Included plugins:
+  *  pathogen
+  *  a.vim
+  *  fugitive
+  *  NERD Tree
+  *  SnipMate
+  *  SuperTab
