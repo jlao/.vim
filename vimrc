@@ -2,6 +2,8 @@ call pathogen#runtime_append_all_bundles()
 filetype off
 filetype plugin indent on
 
+set viminfo='10,\"100,:20,%,n~/.viminfo
+
 set encoding=utf-8
 
 syntax on
@@ -10,6 +12,9 @@ set autoindent
 set tabstop=2
 set shiftwidth=2
 set et
+
+" turn off expand tab for make files
+autocmd FileType make setlocal noexpandtab
 
 set number
 
